@@ -40,7 +40,7 @@ https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html
 ? Please choose the profile you want to use default
 ```
 
-Press **Enter**. The Amplify CLI will initialize the backend and connect the project to the cloud. Once complete, you will get a confirmation and the Amplify CLI will add a new file `team-provider-info.json` to the amplify folder, which contains the Amplify backend details. It will also add a new dart file `amplifyconfiguration.dart` to the lib/ folder. The app will use this file to know how to reach your provisioned backend resources at runtime.
+Press **Enter**. The Amplify CLI will initialize the backend and connect the project to the cloud. Once complete, you will get a confirmation and the Amplify CLI will add a new file `team-provider-info.json` to the `amplify` folder, which contains the Amplify backend details. It will also add a new dart file `amplifyconfiguration.dart` to the `lib/` folder. The app will use this file to know how to reach your provisioned backend resources at runtime.
 
 **Step 3:** In the how-to guide, we added the following categories to the app:
 
