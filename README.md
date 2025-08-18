@@ -14,7 +14,7 @@ After cloning this repo, and opening the newly cloned Flutter app using VSCode.
 You may do that by running the commands below in your terminal:
 
 ```
-git clone https://github.com/AbeerJihad/amplify-trips-planner.git
+git clone https://github.com/ajlydi/amplify-trips-planner.git
 cd amplify_trips_planner
 code .
 ```
@@ -40,15 +40,9 @@ https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html
 ? Please choose the profile you want to use default
 ```
 
-Press **Enter**. The Amplify CLI will initialize the backend and connect the project to the cloud. Once complete, you will get a confirmation and the Amplify CLI will add a new file `team-provider-info.json` to the amplify folder, which contains the Amplify backend details. It will also add a new dart file `amplifyconfiguration.dart` to the lib/ folder. The app will use this file to know how to reach your provisioned backend resources at runtime.
+Press **Enter**. The Amplify CLI will initialize the backend and connect the project to the cloud. Once complete, you will get a confirmation and the Amplify CLI will add a new file `team-provider-info.json` to the `amplify` folder, which contains the Amplify backend details. It will also add a new dart file `amplifyconfiguration.dart` to the `lib/` folder. The app will use this file to know how to reach your provisioned backend resources at runtime.
 
-**Step 3:** In the how-to guide, we added the following categories to the app:
-
-Amplify Auth: allows users to sign up, sign in, and manage their account
-Amplify API: allows users to create, read, update, and delete trips
-Amplify Storage: allows users to upload and view images in their app
-
-Run the following command to create the resources of the above categories in the cloud.
+**Step 3:** Run the following command to create the resources of the above categories in the cloud.
 
 ```
 amplify push
