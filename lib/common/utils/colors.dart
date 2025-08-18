@@ -17,3 +17,26 @@ const MaterialColor primaryColor = MaterialColor(
   primarySwatch,
 );
 const int primaryColorDark = 0xFFFD9725;
+
+const List<double> greyoutMatrix = [
+  0.2126,
+  0.7152,
+  0.0722,
+  0,
+  0,
+  0.2126,
+  0.7152,
+  0.0722,
+  0,
+  0,
+  0.2126,
+  0.7152,
+  0.0722,
+  0,
+  0,
+  0,
+  0,
+  0,
+  1,
+  0,
+];

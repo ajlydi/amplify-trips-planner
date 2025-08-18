@@ -1,3 +1,4 @@
+import 'package:amplify_trips_planner/common/ui/the_navigation_drawer.dart';
 import 'package:amplify_trips_planner/common/utils/colors.dart'
     as constants;
 import 'package:amplify_trips_planner/features/trip/controller/trips_list_controller.dart';
@@ -28,6 +29,7 @@ class TripsListPage extends ConsumerWidget {
         title: const Text('Amplify Trips Planner'),
         backgroundColor: const Color(constants.primaryColorDark),
       ),
+      drawer: const TheNavigationDrawer(),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           showAddTripDialog(context);
@@ -35,7 +37,10 @@ class TripsListPage extends ConsumerWidget {
         backgroundColor: const Color(constants.primaryColorDark),
         child: const Icon(Icons.add),
       ),
-      body: TripsListGridView(tripsList: tripsListValue),
+      body: TripsListGridView(
+        tripsList: tripsListValue,
+        isPast: false,
+      ),
     );
   }
 }
