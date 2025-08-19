@@ -14,7 +14,7 @@ After cloning this repo, and opening the newly cloned Flutter app using VSCode.
 You may do that by running the commands below in your terminal:
 
 ```
-git clone https://github.com/ajaydi/amplify-trips-planner.git
+git clone https://github.com/aydiaj/amplify-trips-planner.git
 cd amplify_trips_planner
 code .
 ```
