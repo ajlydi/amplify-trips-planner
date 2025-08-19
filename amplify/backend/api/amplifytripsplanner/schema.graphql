@@ -25,7 +25,7 @@ type Profile
  @model
  @auth(
    rules: [
-     { allow: private, provider: iam }
+     { allow: private, provider: identityPool }
      { allow: owner, operations: [read, update, create] }
    ]
  ) {
